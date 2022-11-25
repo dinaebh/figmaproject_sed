@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     overflow: hidden;
-    line-height: 100px;
+    line-height: 150px;
     align-items: center;
 }
 
