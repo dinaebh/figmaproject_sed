@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    line-height: 100px;
+    align-items: center;
+}
+
+/* menu home project services */
+
+.menu-spacing {
+    width: 30%;
+}
+
+.menu-spacing ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.menu-spacing li {
+    /* display: inline; */
+    list-style: none;
+}
+
+.menu-spacing a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 17px;
+    color: #6B708D;;
+}
+
+.menu-spacing a:active {
+    color: #072ac8;
+}
+
+
+/* botón contact us */
+
+.contact-button {
+    background-color: #072ac8;
+    padding: 15px 36px 15px 36px;
+    border: none;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+/* footer */
+
+.footer-spacing {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.footer-links {
+    display: flex;
+    align-items: space-between;
+}
