@@ -6,69 +6,185 @@ body {
     padding: 0;
     font-family: 'Roboto';
     box-sizing: border-box;
-}
-.nav-bar {
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-    line-height: 150px;
-    align-items: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* menu home project services */
+.nav-bar {
+    line-height: 150px;
+}
 
 .menu-spacing {
-    width: 30%;
+    background-color: #292E47;
 }
 
-.menu-spacing ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
+.menu-burger label {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
 }
 
-.menu-spacing li {
-    /* display: inline; */
+.menu-burger label {
+    display: inline-block;
+    color:#6B708D;
+    font-style: normal;
+    font-size: 17px;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.menu-burger ul {
+    display: none;
+}
+
+.menu-burger ul li {
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 1px solid #6B708D;
+    display: block;
+}
+
+.menu-burger a {
+    text-decoration: none;
     list-style: none;
-}
-
-.menu-spacing a {
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 17px;
-    color: #6B708D;;
-}
-
-.menu-spacing a:active {
+    font-weight: 700;
     color: #072ac8;
+    line-height: 170%;
+    background-color: #6B708D;
+}
+
+.menu-burger a:hover {
+    background-color: #292E47;
+}
+
+.menu-burger input[type = "checkbox"]:checked ~ ul {
+    animation: fadein 1s forwards;
+    display: block;
+}
+
+input[type = "checkbox"] {
+    display: none;
+}
+
+.nav-bar .contact-button {
+    display: none;
 }
 
 
-/* botón contact us */
+@media (min-width: 768px) {
 
-.contact-button {
-    background-color: #072ac8;
-    padding: 15px 36px 15px 36px;
-    border: none;
-}
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        line-height: 150px;
+        align-items: center;
+    }
 
-.contact-button a {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
-}
+    .nav-bar a.icon {
+        display: none;
+    }
 
+    .nav-bar .menu-spacing {
+        display: inline;
+    }
 
-/* footer */
+    .nav-bar .contact-button {
+        display: inline;
+    }
+    
+    .menu-burger {
+        display: none;
+    } 
 
-.footer-spacing {
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-}
-
-.footer-links {
-    display: flex;
-    align-items: space-between;
+    /* menu home project services */
+    
+    .menu-spacing {
+        width: 30%;
+    }
+    
+    .menu-spacing ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    
+    .menu-spacing li {
+        list-style: none;
+    }
+    
+    .menu-spacing a {
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 17px;
+        color: #6B708D;
+    }
+    
+    .menu-spacing a:active {
+        color: #072ac8;
+    }
+    
+    
+    /* botón contact us */
+    
+    .contact-button {
+        background-color: #072ac8;
+        padding: 15px 36px 15px 36px;
+        border: none;
+    }
+    
+    .contact-button a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    
+    /* footer */
+    
+    .footer-spacing {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .footer-links {
+        display: flex;
+        align-items: space-between;
+    }
+    
+    .footer-address-logo {
+        line-height: 320%;
+    }
+    
+    .footer-spacing p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 160%;
+        font-weight: 800;
+        color: #6B708D;
+    }
+    
+    .footer-links li {
+        list-style: none;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        color: #6B708D;
+        font-weight: 800;
+        font-size: 17px;
+    }
+    
+    .footer-column {
+        line-height: 70px;
+        margin-left: 70px;
+    }
+    
 }
