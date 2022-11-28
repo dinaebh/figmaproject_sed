@@ -11,6 +11,8 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 767px) {
+
 .nav-bar {
     line-height: 150px;
 }
@@ -73,7 +75,7 @@ input[type = "checkbox"] {
 .nav-bar .contact-button {
     display: none;
 }
-
+}
 
 @media (min-width: 768px) {
 
@@ -89,7 +91,7 @@ input[type = "checkbox"] {
         display: none;
     }
 
-    .nav-bar .menu-spacing {
+    .nav-bar .menu-spacingweb {
         display: inline;
     }
 
@@ -101,9 +103,13 @@ input[type = "checkbox"] {
         display: none;
     } 
 
+    .menu-web {
+        display: inline;
+    }
+
     /* menu home project services */
     
-    .menu-spacing {
+    .menu-spacingweb {
         width: 30%;
     }
     
@@ -113,18 +119,18 @@ input[type = "checkbox"] {
         padding: 0px;
     }
     
-    .menu-spacing li {
+    .menu-spacingweb li {
         list-style: none;
     }
     
-    .menu-spacing a {
+    .menu-spacingweb a {
         text-decoration: none;
         font-weight: 800;
         font-size: 17px;
         color: #6B708D;
     }
     
-    .menu-spacing a:active {
+    .menu-spacingweb a:active {
         color: #072ac8;
     }
     
