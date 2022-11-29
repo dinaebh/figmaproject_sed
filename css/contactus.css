@@ -1,12 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+*{font-family: 'Roboto';
+    background-color:#F2F4FC;
+}
 
 body {
-    margin: 0;
+    margin:0;
     padding: 0;
-    width: 90wv;
-    font-family: 'Roboto', sans-serif;
+    width: 90vw;
     box-sizing: border-box;
+    margin-left:auto;
+    margin-right: auto;
 }
+/* Aquí empieza burger menu */
+
+.topnav {
+    overflow: hidden;
+    background-color: #292e47;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+ 
+  .topnav a.icon {
+    background: #292e47;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #6B708D;
+    color: #F2F4FC;
+  }
+  
+  
+  .active {
+    background-color: #E5E5E5;
+    color: white;
+  }
+
+  .burger-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+   /* Aquí acaba burger menu */
 
 .rowContact {
     margin-left: 10px;
@@ -14,10 +68,10 @@ body {
 }
 
 .rowContact h1 {
-    font-family: 'Roboto', sans-serif, bold;
+    font-family: 'Roboto';
     margin: 15px 0px 15px 0px;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 700;
     justify-self: flex-end;
     text-align: center;
     line-height: 5px;
@@ -37,7 +91,7 @@ body {
 .formlayout{
     width: 100%;
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    
     height: 400px;
     align-content: stretch;
     flex-direction: column;
@@ -47,8 +101,8 @@ body {
 
 
 .contact-label>label {
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 350;
 
     line-height: 30px;
 
@@ -59,7 +113,7 @@ body {
 .fill-contact input{
 
     font-size: 13px;
-
+font-weight: 300;
     height: 10vw;
     width: 100%;
     border: none;
@@ -73,25 +127,86 @@ body {
 textarea {
     width: 100%;
     background-color: #f2f4fc;
-    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 13px;
     padding: 8px 0px 0px 10px;
-    border: none;
+    border:none;
     height: 80px;
-
     box-sizing: border-box;
+    
+
+
 }
 
 #submit>button {
-    width: 100%;
+    width: 50%;
     height: 10vw;
     font-size: 17px;
-    font-family: 'Robot', sans-serif;
+    /* font-family: 'Robot', sans-serif; */
     letter-spacing: 1px;
     background-color: #072ac8;
     color: white;
     border: none;
+    margin-top:5px;
+
+}
+
+@media (min-width: 768px) {
+    body{
+        width:80vw;
+        margin-left:150px;
+        margin-right:150px;
+background-color:violet;
+    }
+    
+    /* .formlayout {
+        display:grid;
+        width:100%;
+       grid-template-rows: 11% 11% 11% 11% 11% 11% 11% 11% 11%;  
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+    'a a'
+    'b b'
+    'c e'
+    'd f'
+    'g g'
+    'h h'
+    'h h'
+    'h h'
+    'i i';
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    padding:60px;
+    }
+
+.formlayout .grid-a {
+    grid-area: a;
+}
+.formlayout .grid-b {
+    grid-area: b;
+}
+.formlayout .grid-c {
+    grid-area: c;
+}
+.formlayout .grid-d {
+    grid-area: d;
+}
+.formlayout .grid-e {
+    grid-area: e;
+}
+.formlayout .grid-f {
+    grid-area: f;
+}
+.formlayout .grid-g {
+    grid-area: g;
+}
+.formlayout .grid-h {
+    grid-area: h;
+}
+.formlayout .grid-i {
+    grid-area: i;
+/* }  */
 
 }
