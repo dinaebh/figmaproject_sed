@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
 
 *{font-family: 'Roboto';
+    background-color:#F2F4FC;
 }
 
 body {
@@ -11,6 +12,55 @@ body {
     margin-left:auto;
     margin-right: auto;
 }
+/* Aquí empieza burger menu */
+
+.topnav {
+    overflow: hidden;
+    background-color: #292e47;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+ 
+  .topnav a.icon {
+    background: #292e47;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #6B708D;
+    color: #F2F4FC;
+  }
+  
+  
+  .active {
+    background-color: #E5E5E5;
+    color: white;
+  }
+
+  .burger-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+   /* Aquí acaba burger menu */
 
 .rowContact {
     margin-left: 10px;
