@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
     width: 90wv;
-    font-family: 'Roboto', sans-serif;
+
     box-sizing: border-box;
 }
 
@@ -17,7 +19,7 @@ body {
     font-family: 'Roboto', sans-serif, bold;
     margin: 15px 0px 15px 0px;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 700;
     justify-self: flex-end;
     text-align: center;
     line-height: 5px;
@@ -94,4 +96,9 @@ textarea {
     color: white;
     border: none;
 
+}
+
+@media (min-width: 768px) {
+    
+    
 }
