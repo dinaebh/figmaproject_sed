@@ -22,19 +22,19 @@ body {
      */
 }
 
-.menu-burger {
+/* .menu-burger {
     background-color: #292E47;
     width: 100%;
     cursor: pointer;
     overflow: hidden;
     display: flex;
-}
+} */
 
 .logo {
     margin-top: 27px;
 }
 
-.menu-burger label {
+/* .menu-burger label {
     margin: 0;
     padding: 0;
     width: 20px;
@@ -47,9 +47,9 @@ body {
     top: 15px;
     right: 20px;
     position: absolute;
-}
+} */
 
-.menu-burger label:hover {
+/* .menu-burger label:hover {
     color: black;
 }
 
@@ -88,8 +88,56 @@ body {
 
 input[type = "checkbox"] {
     display: none;
-}
+} */
 
 .footer-spacing {
     display: inline;
+}
+
+.first-section {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#hero-img {
+    object-fit: cover;
+    width: 300px;
+}
+
+.hero-text {
+    line-height: 60%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#card-one {
+    object-fit: scale-down;
+    width: 120px;
+    float: left;
+    position: absolute;
+    margin-left: -225px;
+}
+
+#card-two {
+    object-fit: scale-down;
+    width: 120px;
+    float: right;
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 150px;
+}
+
+.texts-of-hero {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-large-text {
+    font-size: 12px;
+    width: 50%;
+    padding-left: 10px;
+    text-align: justify;
 }
