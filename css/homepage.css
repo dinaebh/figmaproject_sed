@@ -15,80 +15,55 @@ body {
     display: none;
 }
 
-.nav-bar {
-    /* display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-     */
-}
+/* Aquí empieza burger menu */
 
-/* .menu-burger {
-    background-color: #292E47;
-    width: 100%;
-    cursor: pointer;
+.topnav {
     overflow: hidden;
-    display: flex;
-} */
-
-.logo {
-    margin-top: 27px;
-}
-
-/* .menu-burger label {
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    color: #6B708D;
-    font-style: normal;
-    font-size: 17px;
-    padding: 10px;
-    top: 15px;
-    right: 20px;
-    position: absolute;
-} */
-
-/* .menu-burger label:hover {
-    color: black;
-}
-
-.menu-burger ul {
+    background-color: #292e47;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
     display: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 250px;
-}
+  }
+  
 
-.menu-burger ul li {
-    font-size: 17px;
-    text-align: center;
-    border-bottom: 1px solid #6B708D;
-    display: block;
-}
-
-.menu-burger a {
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    list-style: none;
-    font-weight: 700;
-    color: #072ac8;
-    line-height: 170%;
-    background-color: #6B708D;
-}
-
-.menu-burger a:hover {
-    background-color: #292E47;
-}
-
-.menu-burger input[type = "checkbox"]:checked ~ ul {
-    animation: fadein 1s forwards;
+    font-size: 17px;
     display: block;
-}
+  }
+  
+ 
+  .topnav a.icon {
+    background: #292e47;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #6B708D;
+    color: #F2F4FC;
+  }
+  
+  
+  .active {
+    background-color: #E5E5E5;
+    color: white;
+  }
 
-input[type = "checkbox"] {
-    display: none;
-} */
+  .burger-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+   /* Aquí acaba burger menu */
 
 .footer-spacing {
     display: inline;
