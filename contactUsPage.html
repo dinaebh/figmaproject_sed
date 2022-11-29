@@ -5,91 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./css/nav-bar.css"> -->
-        <link rel="stylesheet" href="./css/contactus.css">
+    <link rel="stylesheet" href="./css/contactus.css">
 
     <title>Projects</title>
 </head>
 
 <body>
-    
+
     <header>
         <!-- //Navbar //-->
         <nav class="nav-bar">
-           <!-- comienza menu burger -->
-           <div class="topnav">
-            <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle"/></a>
-            
-            <div id="myLinks">
-                <div class="burger-content">
-              <a href="#news">Home</a>
-              <a href="#contact">Projects</a>
-              <a href="#about">Services</a>
-              <a href="#about">Contact Us</a>
-              </div>
-            </div>
-            
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars">&#9776;</i>
-            </a>
-          </div>
-          <!-- Aquí acaba menu burger -->
-                <div class="menu-web">
-                    <div class="menu-spacingweb">
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Services</a></li>
-                        </ul>
-                    </div>
-                    <div>
+            <!-- comienza menu burger -->
+            <div class="topnav">
+                <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle" /></a>
 
-            <Button class="contact-button"><a href="">Contact Us</a></Button>
-        <!-- <a href="javascript:void(0);" class="icon" onclick="myBurger()">☰</a> -->
-    </div></div>
+                <div id="myLinks">
+                    <div class="burger-content">
+                        <a href="#news">Home</a>
+                        <a href="#contact">Projects</a>
+                        <a href="#about">Services</a>
+                        <a href="#about">Contact Us</a>
+                    </div>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars">&#9776;</i>
+                </a>
+            </div>
+            <!-- Aquí acaba menu burger -->
+            <div class="menu-web">
+                <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle" /></a>
+                <div class="menu-spacingweb">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                    <Button class="contact-button"><a href="">Contact Us</a></Button>
+                    <!-- <a href="javascript:void(0);" class="icon" onclick="myBurger()">☰</a> -->
+                </div>
+            </div>
 
         </nav>
-    </header>  
+    </header>
     <section class="rowContact">
-        <h1>Contact Us <hr></h1>
+        <h1>Contact Us
+            <hr>
+        </h1>
         <form action="/some-url" method="post" id="form1" class="formlayout">
             <div class="contact-label grid-a">
-                <label for="nameandsurname">Full name* </label> </div>
-                <div class="fill-contact grid-b"><input type="text" name="nameandsurname" id="nameandsurname" placeholder="Enter your full name" required>
+                <label for="nameandsurname">Full name* </label>
             </div>
-            <div class="contact-label grid-c">
-                <label for="email">Email</label>
+            <div class="fill-contact grid-b"><input type="text" name="nameandsurname" id="nameandsurname"
+                    placeholder="Enter your full name" required>
             </div>
-                <div class="fill-contact grid-d">
-                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-            </div>
-            <div class="contact-label grid-e">
-                <label for="phone">Phone</label>
-            </div>
-            <div class="fill-contact grid-f"> 
-                <input type="telNo" name="phone" id="phone" placeholder="Enter your phone number (+34 123 45 67)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="13"
-                required>
-            </div>
-            <div class="contact-label grid-g">
-                <label for="message">Message</label>
-            </div>
+            <div clas="tworows">
+                <div clas="emailpack">
+                    <div class="contact-label grid-c">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="fill-contact grid-d">
+                        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                    </div>
+                </div>
+                <div class="phonepack">
+                    <div class="contact-label grid-e">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="fill-contact grid-f">
+                        <input type="telNo" name="phone" id="phone"
+                            placeholder="Enter your phone number (+34 123 45 67)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            size="13" required>
+                    </div></div>
+                </div>
+                <div class="contact-label grid-g">
+                    <label for="message">Message</label>
+                </div>
                 <div class="fill-contact grid-h">
-                     <textarea name="message" id="message" placeholder="Write your message here..."maxlength="200" ></textarea>
-            </div>
-            <div id="submit" class="grid-i">
-                <button type="submit" form="form1" value="Submit">Submit</button>
-            </div>
+                    <textarea name="message" id="message" placeholder="Write your message here..."
+                        maxlength="200"></textarea>
+                </div>
+                <div id="submit" class="grid-i">
+                    <button type="submit" form="form1" value="Submit">Submit</button>
+                </div>
         </form>
 
-    
 
 
-
+        <!-- <script src="./javascript/hamburgermenu.js"></script> -->
+        <script src="./javascript/hamburgermenu.js"></script>
 
     </section>
     <!--///Footer// -->
-   <!-- ///Footer// -->
-   <!-- <footer class="footer-spacing">
+    <!-- ///Footer// -->
+    <!-- <footer class="footer-spacing">
     <div><div><img src="./project-assets/logos/circle.svg" alt="logo-circle"/></div>
     <div><address><p>2972 Westheimer Rd. Santa Ana,</p><p>Illinois 85486</p></address></div></div>
     <div class="footer-links">
