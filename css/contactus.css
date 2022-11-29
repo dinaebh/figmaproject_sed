@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+} */
+
+#rowcontact{
+    display: flex;
+    width: 90%wv;
+    margin:20px 20px;
+}
+.contact-label {
+    font-family:"Roboto, regular";
+    font-size: 30px;
+    width: 90%vw;
+
+}
+.fill-contact {
+    font-weight: lighter;
+    font-family: Roboto, Thin;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: blueviolet;
+    background-color: blue;
+  }

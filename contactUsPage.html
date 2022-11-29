@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/nav-bar.css"> -->
+        <link rel="stylesheet-Contactus" href="./css/contactus.css">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <header>
+        <!-- //Navbar //-->
+        <nav class="nav-bar">
+            <div>
+                <img src="./project-assets/logos/circle.svg" alt="logo-circle"/>
+            </div>
+            <div class="menu-spacing">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <Button class="contact-button"><a href="">Contact Us</a></Button>
+            </div>
+
+        </nav>
+    </header>  
+    <section id="rowContact">
+        <form action="/some-url" method="post" id="form1">
+            <div class="contact-label">
+                <label for="nameandsurname">Full name* </label> </div>
+                <div class="fill-contact"><input type="text" name="nameandsurname" id="nameandsurname" placeholder="Enter your full name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Enter your email adress" required>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+            </div>
+            <div> 
+                <input type="telNo" name="phone" id="phone" placeholder="Enter your phone number (+34 123 45 67)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="13"
+                required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+            </div>
+                <div>
+                     <textarea name="message" id="message" placeholder="Write your message here..." ></textarea>
+            </div>
+            <div>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+            </div>
+        </form>
+
+    
+
+
+
+
+    </section>
+    <!-- ///Footer// -->
+   <!-- ///Footer// -->
+   <footer class="footer-spacing">
+    <div><div><img src="./project-assets/logos/circle.svg" alt="logo-circle"/></div>
+    <div><address><p>2972 Westheimer Rd. Santa Ana,</p><p>Illinois 85486</p></address></div></div>
+    <div class="footer-links">
+        <div><ul><li>Team</li><li>Press</li></ul></div>
+        <div><ul><li>Services</li><li>Projects</li></ul></div>
+        <div><ul><li>About Us</li><li>Privacy Policy</li></ul></div>
+    </div>
+</footer>
+</body>
+</html>
