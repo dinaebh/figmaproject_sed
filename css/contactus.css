@@ -1,33 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-/* body {
-    background-color: #E5E5E5;
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
+    width: 90wv;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-} */
+}  
+.rowContact{
+   
+    margin-left:10px;
+    margin-right:10px;
+}
+.rowContact h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0px 15px 0px;
+    font-size: 40px;
+    font-weight:8000;
+    justify-self: flex-end;
+    text-align: center;
+    line-height: 5px;
+    color:#292E47;
+    
+}
+.rowContact hr{
+    width:100wv;
+    background-color:#292E47;
+    height:2px;
+    border:none;
+    border-color: none;
+    
+}
 
-#rowcontact{
-    display: flex;
-    width: 90%wv;
-    margin:20px 20px;
+.fillContact {
+    width:100%;
+display: flex;
+font-family: 'Roboto', sans-serif;
+    height: 400px;
+    align-content:stretch;
+    flex-direction:column; 
+    align-content: space-between;
+   
 }
-.contact-label {
-    font-family:"Roboto, regular";
-    font-size: 30px;
-    width: 90%vw;
+
+
+.contact-label label{
+    font-size: 17px;
+    font-weight: 300;
+    
+    line-height:30px ;
+    
+    color:#6B708D;
 
 }
-.fill-contact {
-    font-weight: lighter;
-    font-family: Roboto, Thin;
-}
-input[type=text] {
+input{
+   
+    font-size: 13px;
+   
+    height:10vw;
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    border:none;
+    padding-left: 10px;
     box-sizing: border-box;
-    border-color: blueviolet;
-    background-color: blue;
-  }
+    border-color: none;
+    background-color: #f2f4fc;
+    color:#6B708D;
+}
+textarea {
+    width: 100%;
+    font-size: 15px;
+    /* font-weight: 400; */
+    background-color: #f2f4fc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    padding:8px 0px 0px 10px;
+    border:none;
+    height:80px;
+    
+    box-sizing: border-box;
+}
+#submit>button{
+    width: 100%;
+    height:10vw;
+    
+    background-color: #072ac8;
+    color:white;
+    border:none;
+}
