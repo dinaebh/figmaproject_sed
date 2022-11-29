@@ -1,10 +1,8 @@
-function myBurger()  {
-    let burger = document.getElementsByClassName("menu-spacing");
-    if (burger.style.display === "block") {
-        burger.style.display = "none";
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
     } else {
-        burger.style.display = "block";
+      x.style.display = "block";
     }
-}
-
-myBurger();
+  }

@@ -11,20 +11,25 @@
         <header>
             <!-- //Navbar //-->
             <nav class="nav-bar">
-                <div class="logo">
-                    <img src="./project-assets/logos/circle.svg" alt="logo-circle"/>
-                </div>
-                <label for="hamburger">☰</label>
-                <div class="menu-burger">
-                    <input type="checkbox" id="hamburger" name="hamburger">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Services</a></li>
-                        <li class="contact-burger"><a href="">Contact Us</a></li>
-                    </ul>
-                </div>
 
+                <!-- comienza menu burger -->
+                <div class="topnav">
+                    <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle"/></a>
+                    
+                    <div id="myLinks">
+                        <div class="burger-content">
+                      <a href="#news">Home</a>
+                      <a href="#contact">Projects</a>
+                      <a href="#about">Services</a>
+                      <a href="#about">Contact Us</a>
+                      </div>
+                    </div>
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars">&#9776;</i>
+                    </a>
+                  </div>
+                  <!-- Aquí acaba menu burger -->
                         <div class="menu-web">
                             <div class="menu-spacingweb">
                                 <ul>
@@ -42,13 +47,12 @@
             </nav>
         </header>
 
-        <section>
+        <section class="first-section">
             <img id="hero-img" src="./project-assets/hero-section/hero-image.png" alt="hero image">
             <img id="card-one" src="./project-assets/hero-section/card-1.png" alt="Choose your card"> 
             <img id="card-two" src="./project-assets/hero-section/card-2.png" alt="Project accepted">
-            <div class="first-section"><div class="texts-of-hero"><div class="hero-text"><h2>Empower Your</h2>
-            <h2>Business With</h2>
-            <h2> Stunning Design!</h2></div><div class="empower-square">ddd</div></div>
+            <div class="hero-text-area"><div class="texts-of-hero"><div class="hero-text"><h2>Empower Your Business</h2>
+            <h2>With Stunning Design!</h2></div><div class="empower-square">ddd</div></div>
             <div class="hero-large-text"><p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p></div>
         </div>
         </section>
@@ -80,6 +84,7 @@
         </footer>
 
         <!-- <script src="./javascript/hamburgermenu.js"></script> -->
+        <script src="./javascript/hamburgermenu.js"></script>
 
     </body>
 </html>

@@ -1,103 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
 
 body {
-    background-color: #E5E5E5;
-    margin: auto;
+    background-color: #f2f4fc;
     padding: 0;
     font-family: 'Roboto';
     box-sizing: border-box;
     width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu-web {
     display: none;
 }
 
-/* .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-    
-} */
+/* Aquí empieza burger menu */
 
-/* .menu-burger {
-    background-color: #292E47;
-    width: 100%;
-    cursor: pointer;
+.topnav {
     overflow: hidden;
-    display: flex;
-} */
-
-.logo {
-    margin-top: 27px;
-}
-
-/* .menu-burger label {
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    color: #6B708D;
-    font-style: normal;
-    font-size: 17px;
-    padding: 10px;
-    top: 15px;
-    right: 20px;
-    position: absolute;
-} */
-
-/* .menu-burger label:hover {
-    color: black;
-}
-
-.menu-burger ul {
+    background-color: #292e47;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
     display: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 250px;
-}
+  }
+  
 
-.menu-burger ul li {
-    font-size: 17px;
-    text-align: center;
-    border-bottom: 1px solid #6B708D;
-    display: block;
-}
-
-.menu-burger a {
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    list-style: none;
-    font-weight: 700;
-    color: #072ac8;
-    line-height: 170%;
-    background-color: #6B708D;
-}
-
-.menu-burger a:hover {
-    background-color: #292E47;
-}
-
-.menu-burger input[type = "checkbox"]:checked ~ ul {
-    animation: fadein 1s forwards;
+    font-size: 17px;
     display: block;
-}
+  }
+  
+ 
+  .topnav a.icon {
+    background: #292e47;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #6B708D;
+    color: #F2F4FC;
+  }
+  
+  
+  .active {
+    background-color: #f2f4fc;
+    color: white;
+  }
 
-input[type = "checkbox"] {
-    display: none;
-} */
+  .burger-content{
+    display: flex;
+    justify-content: center;
+  }
+
+
+   /* Aquí acaba burger menu */
 
 .footer-spacing {
     display: inline;
 }
 
 .first-section {
+    text-align: center;
+    
+}
+
+.hero-text-area {
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
-    margin: auto;
-    vertical-align: middle;
+    left: 50%;
+    top: 50%;
 }
 
 #hero-img {
@@ -108,7 +89,8 @@ input[type = "checkbox"] {
 .hero-text {
     line-height: 60%;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
 }
 
 #card-one {
@@ -117,6 +99,13 @@ input[type = "checkbox"] {
     float: left;
     position: absolute;
     margin-left: -335px;
+}
+
+#card-one:hover {
+    width: 180px;
+    transition: ease-in-out 0.2s;
+    margin-left: -340px;
+    
 }
 
 #card-two {
@@ -128,6 +117,13 @@ input[type = "checkbox"] {
     margin-top: 220px;
 }
 
+#card-two:hover {
+    width: 180px;
+    transition: ease-in-out 0.2s;
+    margin-left: -140px;
+    
+}
+
 /* .texts-of-hero {
     display: flex;
     flex-wrap: wrap;
@@ -136,14 +132,15 @@ input[type = "checkbox"] {
 .empower-square {
     background-color: #ffffff;
     border-radius: 15%;
-    height: 100px;
-    weight: 100px;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    box-shadow: 1px 6px 10px rgb(219, 219, 219);
 }
 
 
 .hero-large-text {
     font-size: 12px;
-    width: 50%;
-    padding-left: 10px;
+    width: 80%;
     text-align: justify;
 }
