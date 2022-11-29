@@ -12,22 +12,41 @@
 </head>
 
 <body>
+    
     <header>
         <!-- //Navbar //-->
         <nav class="nav-bar">
-            <div>
-                <img src="./project-assets/logos/circle.svg" alt="logo-circle"/>
+           <!-- comienza menu burger -->
+           <div class="topnav">
+            <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle"/></a>
+            
+            <div id="myLinks">
+                <div class="burger-content">
+              <a href="#news">Home</a>
+              <a href="#contact">Projects</a>
+              <a href="#about">Services</a>
+              <a href="#about">Contact Us</a>
+              </div>
             </div>
-            <div class="menu-spacing">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Services</a></li>
-                </ul>
-            </div>
-            <div>
-                <Button class="contact-button"><a href="">Contact Us</a></Button>
-            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars">&#9776;</i>
+            </a>
+          </div>
+          <!-- Aquí acaba menu burger -->
+                <div class="menu-web">
+                    <div class="menu-spacingweb">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Projects</a></li>
+                            <li><a href="">Services</a></li>
+                        </ul>
+                    </div>
+                    <div>
+
+            <Button class="contact-button"><a href="">Contact Us</a></Button>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myBurger()">☰</a> -->
+    </div></div>
 
         </nav>
     </header>  
