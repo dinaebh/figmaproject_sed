@@ -65,36 +65,31 @@ body {
 
    /* Aquí acaba burger menu */
 
-.footer-spacing {
-    display: inline;
-}
-
 .first-section {
     text-align: center;
     
 }
 
 .hero-text-area {
-    display: flex;
-    flex-wrap: wrap;
-    left: 50%;
-    top: 50%;
+    /* flex-wrap: wrap; */
+    margin: auto;
 }
 
 #hero-img {
-    object-fit: cover;
+    /* object-fit: cover; */
     width: 300px;
 }
 
 .hero-text {
     line-height: 60%;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 1.1em;
     text-align: center;
+    color: #292E47;
 }
 
 #card-one {
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
     width: 170px;
     float: left;
     position: absolute;
@@ -109,7 +104,7 @@ body {
 }
 
 #card-two {
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
     width: 170px;
     float: right;
     position: absolute;
@@ -124,10 +119,11 @@ body {
     
 }
 
-/* .texts-of-hero {
+.wrap-text-and-square {
     display: flex;
     flex-wrap: wrap;
-} */
+    justify-content: center;
+}
 
 .empower-square {
     background-color: #ffffff;
@@ -136,11 +132,61 @@ body {
     width: 80px;
     padding: 10px;
     box-shadow: 1px 6px 10px rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    /* float: left; */
 }
 
+.empower-inside {
+    padding: 10px;
+    background-color: #D1EDFF;
+    border-radius: 25%;
+    width: 20px;
+    height: 20px;
+}
+
+#empower-img {
+    width: 20px;
+    height: 20px;
+}
 
 .hero-large-text {
     font-size: 12px;
-    width: 80%;
+    width: 140px;
     text-align: justify;
+    margin-left: 15px;
+    color: #292E47;
+    border-bottom: 5px solid #FFC600;
+    /* float: right; */
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button-get-in-touch {
+    border-radius: 6px;
+    border: none;
+    background-color: #072acb;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px;
+    font-weight: 500;
+}
+
+.button-see-our-work {
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    color: #072acb;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px;
+    font-weight: 500;
 }
