@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-web {
+    display: none;
+}
+
+.nav-bar {
+    /* display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+     */
+}
+
+/* .menu-burger {
+    background-color: #292E47;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+} */
+
+.logo {
+    margin-top: 27px;
+}
+
+/* .menu-burger label {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #6B708D;
+    font-style: normal;
+    font-size: 17px;
+    padding: 10px;
+    top: 15px;
+    right: 20px;
+    position: absolute;
+} */
+
+/* .menu-burger label:hover {
+    color: black;
+}
+
+.menu-burger ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 250px;
+}
+
+.menu-burger ul li {
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 1px solid #6B708D;
+    display: block;
+}
+
+.menu-burger a {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    color: #072ac8;
+    line-height: 170%;
+    background-color: #6B708D;
+}
+
+.menu-burger a:hover {
+    background-color: #292E47;
+}
+
+.menu-burger input[type = "checkbox"]:checked ~ ul {
+    animation: fadein 1s forwards;
+    display: block;
+}
+
+input[type = "checkbox"] {
+    display: none;
+} */
+
+.footer-spacing {
+    display: inline;
+}
+
+.first-section {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#hero-img {
+    object-fit: cover;
+    width: 300px;
+}
+
+.hero-text {
+    line-height: 60%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#card-one {
+    object-fit: scale-down;
+    width: 120px;
+    float: left;
+    position: absolute;
+    margin-left: -225px;
+}
+
+#card-two {
+    object-fit: scale-down;
+    width: 120px;
+    float: right;
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 150px;
+}
+
+.texts-of-hero {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-large-text {
+    font-size: 12px;
+    width: 50%;
+    padding-left: 10px;
+    text-align: justify;
+}
