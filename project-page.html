@@ -4,42 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Aquí irá el css">
+    <link rel="stylesheet" href="./css/projects.css">
     <title>Projects</title>
 </head>
 <body>
     <header>
         <!-- //Navbar //-->
-        <nav>
-            <div>
-                <img src="/project-assets/logos/circle.svg" alt="logo-circle"/>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Services</a></li>
-                </ul>
-            </div>
-            <div>
-                <Button><a href="">Contact Us</a></Button>
-            </div>
+        <nav class="nav-bar">
+
+            <!-- comienza menu burger -->
+            <div class="topnav">
+                <a href="#home" class="active"> <img src="./project-assets/logos/circle.svg" alt="logo-circle"/></a>
+                
+                <div id="myLinks">
+                    <div class="burger-content">
+                  <a href="#news">Home</a>
+                  <a href="#contact">Projects</a>
+                  <a href="#about">Services</a>
+                  <a href="#about">Contact Us</a>
+                  </div>
+                </div>
+                
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars">&#9776;</i>
+                </a>
+              </div>
+              <!-- Aquí acaba menu burger -->
+                    <div class="menu-web">
+                        <div class="menu-spacingweb">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Projects</a></li>
+                                <li><a href="">Services</a></li>
+                            </ul>
+                        </div>
+                        <div>
+
+                <Button class="contact-button"><a href="">Contact Us</a></Button>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myBurger()">☰</a> -->
+        </div></div>
 
         </nav>
-    </header>  
+    </header> 
     <!-- ///Fin Header/// -->
   <section>
     <div>
         <h1>Simplify</h1>
-        <div>
-        <p>UI Design & App Development</p>
-        <p>Completed on <span> 22, 2021</span></p>
+        <div class="sub">
+        <p class="sub-1">UI Design & App Development</p>
+        <p class="sub-2">Completed on <span class="sub-3"> June 22, 2021</span></p>
     </div>
    </div>
 <!--Foto y texto-->
-<div>
-<div>
-    <p>
+<div class="main-part">
+    <div class="container-image">
+        <div class="image-blur"></div>
+        <div class="image-main"></div>
+    </div>
+    <br>
+<div class="main-text">
+    <p class="main-text1">
         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore
         cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt
         nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit
@@ -49,7 +73,7 @@
         incididunt sint deserunt ut voluptate aute id deserunt nisi.
     
     </p>
-    <p>
+    <p class="main-text2">
         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore
         cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt
         nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure
@@ -70,14 +94,69 @@
     </div>
 
     <div>
-        <div>
-
+        <div class="card">
+            <img  class="embed-responsive embed-responsive-1by1" src="./project-assets/projects-section/4.jpg" alt="Project1">
+            <div class="container">
+                <h4>Orbit</h4>
+                <p> UI Design</p>
+                <a href="">Learn more</a>
+            </div>
         </div>
-        <div>
-            
+        <div class="card">
+            <img src="./project-assets/projects-section/5.jpg" alt="Project2">
+            <div class="container">
+                <h4>Purify</h4>
+                <p>UI/UX Design</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./project-assets/projects-section/6.jpg" alt="Project3">
+            <div class="container">
+                <h4>CryptoPie</h4>
+                <p>App Development</p>
+                <a href="">Learn more</a>
+            </div>
         </div>
     </div>
 </section>
+
+<!-- Cuadrado amarillo -->
+
+<section class="yellow-area">
+    <div class="yellow-content">
+        <div>
+            <p><h3>Do you have any questions?</h3></p>
+            <p class="yellow-let">Let us help you!</p>
+        </div>
+
+        <div class="mail-box">
+            <div
+                class="control has-icons-left box-input is-flex-desktop"
+            >
+                <input
+                    class="input"
+                    type="email"
+                    placeholder="Email input"
+                    value="Enter your mail"
+                />
+                <span class="icon">
+                    <img
+                        src="./project-assets/newsletter/mail.svg"
+                    />
+                </span>
+                <div class="button">
+                    <button><a>Subscribe</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
 
 <!-- ///Footer// -->
     <footer>
@@ -90,6 +169,7 @@
         </div>
         
     </footer>
+    <script src="./javascript/hamburgermenu.js"></script>
 </body>
 </html>
 
