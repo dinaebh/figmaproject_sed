@@ -56,7 +56,7 @@
         <h1>Contact Us
             <hr>
         </h1>
-        <form action="/some-url" method="post" id="form1" class="formlayout">
+        <form action="./backContact.html" method="post" name="form1" id="form1" class="formlayout" onsubmit="return validateForm()" method="post">
             <div class="contact-label grid-a">
                 <label for="nameandsurname">Full name* </label>
             </div>
@@ -90,13 +90,13 @@
                         maxlength="200"></textarea>
                 </div>
                 <div id="submit" class="grid-i">
-                    <button type="submit" form="form1" value="Submit">Submit</button>
+                     <button type="submit" form="form1" value="Submit">Submit </button>
                 </div>
         </form>
 
 
 
-        <!-- <script src="./javascript/hamburgermenu.js"></script> -->
+        <script src="./javascript/formsandothers.js"></script>
         <script src="./javascript/hamburgermenu.js"></script>
 
     </section>
