@@ -264,7 +264,7 @@ body {
 
 @media screen and (min-width: 768px) {
 
-
+/* Aquí empieza menu web */
 
   .nav-bar{
     overflow: hidden;
@@ -335,6 +335,8 @@ body {
   font-size: 17px;
   font-weight: 500;
 }
+
+/* aquí acaba menu web */
 /* MAIN */
 
 .container-image, .image-blur{
@@ -456,6 +458,56 @@ h3{
   color: white;
   font-size: 18px;
   font-weight: 500;
+}
+
+
+    /* footer */
+    
+.footer-spacing {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: 10px;
+  color:#6B708D;
+      
+      
+}
+
+.footer-links {
+  display: flex;
+  align-items: space-between;
+  }
+
+.footer-address-logo {
+  line-height: 30%;
+    
+      
+}
+ 
+.footer-spacing p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #6B708D;
+  }
+
+.footer-links li {
+  list-style: none;
+  line-height: 45px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6B708D;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.footer-column {
+  line-height: 70px;
+  margin-left: 70px;
 }
 
 }
