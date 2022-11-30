@@ -256,7 +256,67 @@ body {
 }
  /* acaba zona amarilla */
 
+/* footer mobile tarts here*/
+.footer-spacing {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  right: 13%;
+  position:inherit;
+  bottom: 0;
+ 
+  color:#6B708D;
+  
+  
+}
+.footer-column ul{
+  margin:auto;
+  padding:0 25px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  margin-top:15px;
+ 
+}
 
+
+.footer-address-logo {
+line-height: 30%;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+
+  
+}
+
+.footer-spacing p {
+  margin: 2px;
+  text-align:center;
+  font-size: 13px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #6B708D;
+}
+
+.footer-links li {
+  text-align:left;
+  list-style: none;
+  line-height: 20px;
+
+  
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6B708D;
+  font-weight: 400;
+  font-size: 11px;
+  
+} 
+/* footer mobile ends here*/
 
 /* 
  DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION 
@@ -461,53 +521,60 @@ h3{
 }
 
 
-    /* footer */
+  /* footer desktop starts here*/
+
+  .footer-spacing {
+    position:inherit;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#6B708D;
+    justify-content: space-between;
     
-.footer-spacing {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  align-items: center;
-  margin-bottom: 10px;
-  color:#6B708D;
-      
-      
 }
 
 .footer-links {
-  display: flex;
-  align-items: space-between;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-content: left;
+}
 
 .footer-address-logo {
-  line-height: 30%;
+    display: flex;
+    line-height: 30%;
+  flex-direction: column;
+  align-items: flex-start;
     
-      
 }
- 
+
 .footer-spacing p {
-  margin: 0;
-  font-size: 15px;
-  line-height: 160%;
-  font-weight: 400;
-  color: #6B708D;
-  }
+    margin: 0;
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #6B708D;
+    text-align:left;
+}
 
 .footer-links li {
-  list-style: none;
-  line-height: 45px;
+    list-style: none;
+    line-height: 45px;
 }
 
 .footer-links a {
-  text-decoration: none;
-  color: #6B708D;
-  font-weight: 400;
-  font-size: 17px;
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 .footer-column {
-  line-height: 70px;
-  margin-left: 70px;
+    line-height: 70px;
+    margin-left: 70px;
 }
+
+/* footer desktop starts here*/
 
 }
