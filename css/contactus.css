@@ -105,11 +105,11 @@ body {
     width: 100%;
     display: flex;
 
-    height: 400px;
+    /* height: 400px; */
 
     flex-direction: column;
     align-content: space-between;
-
+margin-bottom: 15px;
 }
 
 
@@ -149,12 +149,15 @@ textarea {
     box-sizing: border-box;
 
 }
-
+#submit{
+    display: flex;
+    align-self: center;
+}
 #submit>button {
-    width: 50%;
+   width:100px;
     height: 10vw;
     font-size: 17px;
-    /* font-family: 'Robot', sans-serif; */
+    text-align: center;
     letter-spacing: 1px;
     background-color: #072ac8;
     color: white;
@@ -162,6 +165,66 @@ textarea {
     margin-top: 5px;
 
 }
+/* footer mobile tarts here*/
+.footer-spacing {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+    
+    margin-bottom: 10px;
+    color:#6B708D;
+    
+    
+}
+.footer-column ul{
+    margin:auto;
+    padding:0 25px;
+}
+.footer-links {
+    display: flex;
+   justify-content: space-between;
+}
+.footer-address-logo>div {
+display:flex;
+justify-content:center;
+
+
+}
+
+.footer-address-logo {
+    line-height: 30%;
+    align-self: center;
+   
+  
+    
+}
+
+.footer-spacing p {
+    margin: 5px;
+    text-align:center;
+    font-size: 13px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #6B708D;
+}
+
+.footer-links li {
+    text-align:left;
+    list-style: none;
+    line-height: 20px;
+
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 11px;
+    
+} 
+
 
 /* mobile forms ends here */
 @media (min-width: 768px) {
@@ -322,7 +385,7 @@ textarea {
     }
 
     #submit>button {
-        width: 100%;
+        width: 80vw;
         height: 80px;
         font-size: 20px;
         letter-spacing: 1px;
@@ -336,7 +399,7 @@ textarea {
 
 
 
-    /* footer */
+    /* footer desktop*/
 
     .footer-spacing {
         display: flex;
