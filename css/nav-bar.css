@@ -76,6 +76,70 @@ input[type = "checkbox"] {
 .nav-bar .contact-button {
     display: none;
 }
+/* FOOTER MOBILE*/
+ /* footer */
+  /* footer mobile tarts here*/
+.footer-spacing {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    overflow: hidden;
+    
+    margin-bottom: 10px;
+    color:#6B708D;
+    
+    
+}
+.footer-column ul{
+    margin:auto;
+    padding:0 25px;
+}
+.footer-links {
+    display: flex;
+   justify-content: space-between;
+}
+.footer-address-logo>div {
+display:flex;
+justify-content:center;
+
+
+}
+
+.footer-address-logo {
+    line-height: 30%;
+    align-self: center;
+   
+  
+    
+}
+
+.footer-spacing p {
+    margin: 5px;
+    text-align:center;
+    font-size: 13px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #6B708D;
+}
+
+.footer-links li {
+    text-align:left;
+    list-style: none;
+    line-height: 20px;
+
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 11px;
+    
+} 
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -114,7 +178,7 @@ input[type = "checkbox"] {
         width: 30%;
     }
     
-    .menu-spacing ul {
+    .menu-spacingweb ul {
         display: flex;
         justify-content: space-around;
         padding: 0px;
@@ -159,39 +223,47 @@ input[type = "checkbox"] {
         justify-content: space-between;
         overflow: hidden;
         align-items: center;
+        margin-bottom: 10px;
+        color:#6B708D;
+        
+        
     }
-    
+
     .footer-links {
         display: flex;
         align-items: space-between;
     }
-    
+
     .footer-address-logo {
-        line-height: 320%;
+        line-height: 30%;
+      
+        
     }
-    
+   
     .footer-spacing p {
         margin: 0;
         font-size: 15px;
         line-height: 160%;
-        font-weight: 800;
+        font-weight: 400;
         color: #6B708D;
     }
-    
+
     .footer-links li {
         list-style: none;
+        line-height: 45px;
     }
-    
+
     .footer-links a {
         text-decoration: none;
         color: #6B708D;
-        font-weight: 800;
+        font-weight: 400;
         font-size: 17px;
     }
-    
+
     .footer-column {
         line-height: 70px;
         margin-left: 70px;
     }
+
     
 }

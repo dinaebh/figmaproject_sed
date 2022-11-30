@@ -139,7 +139,7 @@ body {
     padding-bottom: 30px;
  }
 
- /* cards */
+ /*  empiezan cards */
  .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -189,7 +189,7 @@ body {
     line-height: 60px;
 
   }
-
+  /* acaban las cartas */
   /* Cuadrado amarillo */
 
   .yellow-area{
@@ -224,31 +224,357 @@ body {
     justify-content: center;
   }
 
-  .yellow-area input{
-    width: 100%;
-    height: 55px;
-    padding-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 5px;
+  .mail-area{
+    position: relative;
   }
 
-  .icon{
-    margin-top: 10px;
-    width: 70px;
-    margin-left: 30px;
+  .mail-area img{
+    position: absolute;
+    width: 20px;
+    top: 11.5px;
+    left: 15px;
   }
 
-  .contact-button {
+  .input{
+    padding-left: 45px;
+    border: none;
+    height: 41px;
+    color:#292E47
+  }
+
+  .subscribe-button {
     background-color: #072ac8;
-    padding: 15px 36px 15px 36px;
+    padding: 13px 20px 13px 20px;
     border: none;
 }
 
-.contact-button a {
+.subscribe-button a {
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
 }
+ /* acaba zona amarilla */
+
+/* footer mobile tarts here*/
+.footer-spacing {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  right: 13%;
+  position:inherit;
+  bottom: 0;
+ 
+  color:#6B708D;
+  
+  
+}
+.footer-column ul{
+  margin:auto;
+  padding:0 25px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  margin-top:15px;
+ 
+}
+
+
+.footer-address-logo {
+line-height: 30%;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
 
   
+}
+
+.footer-spacing p {
+  margin: 2px;
+  text-align:center;
+  font-size: 13px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #6B708D;
+}
+
+.footer-links li {
+  text-align:left;
+  list-style: none;
+  line-height: 20px;
+
+  
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6B708D;
+  font-weight: 400;
+  font-size: 11px;
+  
+} 
+/* footer mobile ends here*/
+
+/* 
+ DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION 
+ DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION DESKTOP VERSION  */
+
+@media screen and (min-width: 768px) {
+
+/* Aquí empieza menu web */
+
+  .nav-bar{
+    overflow: hidden;
+    line-height: 150px;
+  }
+
+  .nav-bar a.icon {
+    display: none;
+   }
+ .menu-burger {
+  display: none;
+  } 
+
+.topnav{
+  display: none;
+}
+
+ .menu-web {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-spacingweb a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6B708D;
+}
+
+.menu-spacingweb a:hover{
+  color: #072AC8;
+
+}
+.menu-spacingweb li{
+ list-style: none;
+}
+
+
+.menu-spacingweb{
+  width: 30%;
+}
+
+
+.menu-spacingweb ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+
+.contact-button {
+  background-color: #072ac8;
+  padding: 15px 36px 15px 36px;
+  border: none;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-button a:hover {
+  color: #FFC600;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* aquí acaba menu web */
+/* MAIN */
+
+.container-image, .image-blur{
+  background-image: url("../project-assets/projects-section/1.jpg");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+/* CARDS */
+
+.all-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  width: 28.5vw;
+  height: 60vh;
+  position: relative;
+}
+
+.card>img{
+  height: 350px;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #292E47;
+}
+.container a{
+  text-decoration: none;
+  color: #072AC8;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 60px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.container{
+  padding-left: 40px;
+}
+ /* Cuadrado amarillo */
+
+ .yellow-area{
+  background-color: #FFC600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 60vh;
+  margin-top: 70px;
+  position: relative;
+}
+
+.yellow-content{
+  position: absolute;
+  top: 100px;
+}
+h3{
+  color: #292E47;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.yellow-let{
+  color:#292E47;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  line-height: 0px;
+  padding-bottom: 17px;
+}
+
+.mail-box{
+  display: flex;
+  justify-content: space-between;
+  width: 36.5vw;
+  margin-top: 70px;
+
+}
+
+.mail-area{
+  position: relative;
+}
+
+.mail-area img{
+  position: absolute;
+  width: 2vw;
+  top: 20px;
+  left: 20px;
+}
+
+.input{
+  padding-left: 70px;
+  border: none;
+  height: 8.4vh;
+  width: 21.5vw;
+  color:#292E47;
+  font-size: 17px;
+}
+
+.subscribe-button {
+  background-color: #072ac8;
+  padding: 31px 60px;
+  border: none;
+}
+
+.subscribe-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+  /* footer desktop starts here*/
+
+  .footer-spacing {
+    position:inherit;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#6B708D;
+    justify-content: space-between;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: left;
+}
+
+.footer-address-logo {
+    display: flex;
+    line-height: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+    
+}
+
+.footer-spacing p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #6B708D;
+    text-align:left;
+}
+
+.footer-links li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-column {
+    line-height: 70px;
+    margin-left: 70px;
+}
+
+/* footer desktop starts here*/
+
+}
