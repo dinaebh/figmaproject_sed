@@ -3,7 +3,7 @@ function validateForm() {
 
     let missingname = document.forms["form1"]["nameandsurname"].value;
     if (missingname === "ironhack") {
-        alert("You cannot be Ironhack, because I am Ironhack");
+        alert("You cannot be Ironhack, because I AM IRONHACK");
         return false;
     }
 if (missingname.length ===0) {
