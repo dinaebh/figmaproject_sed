@@ -411,7 +411,7 @@ line-height: 30%;
 }
 /* CARDS */
 
-.all-cards{
+#all-cards{
   display: flex;
   justify-content: space-between;
 }
