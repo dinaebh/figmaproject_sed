@@ -142,7 +142,7 @@ textarea {
     display: flex;
     align-self: center;
 }
-#submit>button {
+#submit>button{
    width:100px;
     height: 10vw;
     font-size: 17px;
