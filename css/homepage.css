@@ -785,8 +785,8 @@ body {
 
 
   /* CARDS */
-
-.all-cards{
+  
+  #all-cards{
     display: flex;
     justify-content: space-between;
   }
