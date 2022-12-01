@@ -30,7 +30,7 @@ body {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   display: block;
 }
 
@@ -785,8 +785,8 @@ body {
 
 
   /* CARDS */
-
-.all-cards{
+  
+  #all-cards{
     display: flex;
     justify-content: space-between;
   }
