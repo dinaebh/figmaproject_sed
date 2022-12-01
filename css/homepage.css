@@ -336,11 +336,16 @@ body {
   display: none;
 }
 
+.third-section {
+  display: inline;
+}
+
 .black-testimonial-area {
     background-color: #292e47;
-    width: 85vw;
+    width: 66vw;
     padding: 50px;
     margin: 0;
+    border-radius: 8%;
 }
 
 .emoji1, 
@@ -358,7 +363,7 @@ body {
 .emoji-second-row {
     display: flex;
     justify-content: space-between;
-    margin-top: 380px;
+    margin-top: 120px;
 }
 
 .testimonials-section {
@@ -766,7 +771,7 @@ body {
   #logo5 {
     width: 100px;
     filter: grayscale(100%);
-    margin: 60px;
+    margin: 80px 70px;;
     transition: ease-in-out 0.7s;
   }
 
@@ -822,18 +827,23 @@ body {
   display: none;
 }
 
+.third-section-desktop {
+  display: inline;
+}
+
 .black-testimonial-area {
   background-color: #292e47;
   width: 85vw;
   padding: 50px;
   margin: 0;
   position: relative;
+  border-radius: 0%;
 }
 
-.emojii1, 
-.emojii2,
-.emojii3,
-.emojii4 {
+.emoji1, 
+.emoji2,
+.emoji3,
+.emoji4 {
   width: 180px;
 }
 
@@ -850,7 +860,7 @@ body {
 
 .testimonials-section {
   position: absolute;
-  left: 30%;
+  left: 28%;
   right: 0;
   margin-top: 8%;
   /* text-align: center; */
@@ -902,10 +912,11 @@ body {
   font-size: 13px;
 }
 
-.img-background-testimonial {
+.img-background-testimonial-desktop {
   position: absolute;
-  margin-left: -115px;
+  margin-left: -140px;
   width: 100vw;
+  margin-top: -100px;
 }
 
   
@@ -951,5 +962,137 @@ body {
   .container2{
     padding-left: 40px;
   }
+
+   /* Cuadrado amarillo */
+
+ .yellow-area{
+  background-color: #FFC600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 60vh;
+  margin-top: 70px;
+  position: relative;
+}
+
+.yellow-content{
+  position: absolute;
+  top: 100px;
+}
+h3{
+  color: #292E47;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.yellow-let{
+  color:#292E47;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  line-height: 0px;
+  padding-bottom: 17px;
+}
+
+.mail-box{
+  display: flex;
+  justify-content: space-between;
+  width: 36.5vw;
+  margin-top: 70px;
+
+}
+
+.mail-area{
+  position: relative;
+}
+
+.mail-area img{
+  position: absolute;
+  width: 2vw;
+  top: 20px;
+  left: 20px;
+}
+
+.input{
+  padding-left: 70px;
+  border: none;
+  height: 8.4vh;
+  width: 21.5vw;
+  color:#292E47;
+  font-size: 17px;
+}
+
+.subscribe-button {
+  background-color: #072ac8;
+  padding: 31px 60px;
+  border: none;
+}
+
+.subscribe-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+  /* footer desktop starts here*/
+
+  .footer-spacing {
+    position:inherit;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#6B708D;
+    justify-content: space-between;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: left;
+}
+
+.footer-address-logo {
+    display: flex;
+    line-height: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+    
+}
+
+.footer-spacing p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #6B708D;
+    text-align:left;
+}
+
+.footer-links li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-column {
+    line-height: 70px;
+    margin-left: 70px;
+}
+
+/* footer desktop starts here*/
 
 }
