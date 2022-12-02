@@ -35,7 +35,7 @@ body {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     display: block;
   }
   
@@ -102,6 +102,7 @@ body {
   font-size: 2.5em;
   text-align: center;
   color: #292e47;
+  margin-bottom:10px;
   
 }
 .getback h2{
@@ -110,6 +111,33 @@ body {
   text-align: center;
   color: #292e47;
 }
+/*animation with colors*/
+.title-word {
+  animation: color-animation 2s linear infinite;
+}
+
+
+.title-word-1 {
+  --color-1: #3D8DAE;
+  --color-2: #3D8DAE;
+  --color-3: #A2D6F9;
+}
+
+.title-word-2 {
+  --color-1:#A2D6F9;
+  --color-2: #3D8DAE;
+  --color-3: #A2D6F9;
+}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+/*ends animation with colors*/
 
 /* footer mobile tarts here*/
 .footer-spacing {
@@ -285,6 +313,7 @@ line-height: 30%;
       border-radius: 50%;
       display: flex;
       align-items: center;
+      
       justify-content: center;
       flex-direction: column;
       box-shadow: 2px 2px 2px 2px rgba(255, 196, 0, 0.487); 
@@ -307,12 +336,13 @@ line-height: 30%;
       color: #292e47;
     }
     .footer-spacing {
+      width:80%;
         position:fixed;
         display: flex;
         flex-direction:row;
         overflow: hidden;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         color:#6B708D;
         justify-content: space-between;
         
@@ -325,8 +355,8 @@ line-height: 30%;
     }
 
     .footer-address-logo {
-        display: flex;
-        line-height: 30%;
+      display: flex;
+      line-height: 30%;
       flex-direction: column;
       align-items: flex-start;
         
